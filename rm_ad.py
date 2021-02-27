@@ -10,8 +10,8 @@ class SetCreditentials:
         self.CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
         self.CLIENT_ID = os.getenv('SPOTIPY_CLIENT_ID')
         self.REDIRECT_URI = os.getenv('SPOTIPY_REDIRECT_URI')
-        os.environ['SPOTIPY_CLIENT_ID'] = "2f72875a7a354192a519273c32154611"
-        os.environ['SPOTIPY_CLIENT_SECRET'] = "c3c47fbc100c4c89a4096ad1e2a5ba34"
+        os.environ['SPOTIPY_CLIENT_ID'] = "Insert-client_id"
+        os.environ['SPOTIPY_CLIENT_SECRET'] = "insert_client_secret"
         os.environ['SPOTIPY_REDIRECT_URI'] = "http://example.com"
 
 # Authorization Code Flow
@@ -31,7 +31,7 @@ def task():
         applescript.AppleScript("set volume output volume 100").run()
 
 
-schedule.every(1).minutes.do(task)
+schedule.every(10).seconds.do(task)
  
 while True:
     schedule.run_pending()
