@@ -7,6 +7,8 @@ go to your [account](https://www.spotify.com/in-en/account/overview/) page of sp
 
 create a spotify app and use the client_id and client_secret.
 
+for the first time it will ask you to enter the url that you are redirected to, copy paste the url after logging in.
+
 enjoy 🥳
 
 
