@@ -16,7 +16,7 @@ class SetCreditentials:
 
 # Authorization Code Flow
 #get user 
-user = "31tdo3qit44oze5b4fmxpj4ewxzm"
+user = "spotify username"
 scope = "user-read-currently-playing"
 
 def task():
